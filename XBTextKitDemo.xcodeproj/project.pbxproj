@@ -15,6 +15,10 @@
 		1A4C7910226777BB0041F325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C790F226777BB0041F325 /* main.m */; };
 		1A4C79182267831D0041F325 /* XBViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C79172267831C0041F325 /* XBViewController2.m */; };
 		1A4C791B2268D6880041F325 /* XBViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C791A2268D6880041F325 /* XBViewController3.m */; };
+		1A4C79202269F0090041F325 /* XBDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C791C2269F0080041F325 /* XBDemoListViewController.m */; };
+		1A4C79212269F0090041F325 /* XBViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C791F2269F0090041F325 /* XBViewController4.m */; };
+		1A4C79242269F18D0041F325 /* XBViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C79232269F18D0041F325 /* XBViewController5.m */; };
+		1A4C79272269F4840041F325 /* XBCircularTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C79262269F4840041F325 /* XBCircularTextContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,14 @@
 		1A4C79172267831C0041F325 /* XBViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBViewController2.m; sourceTree = "<group>"; };
 		1A4C79192268D6880041F325 /* XBViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBViewController3.h; sourceTree = "<group>"; };
 		1A4C791A2268D6880041F325 /* XBViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBViewController3.m; sourceTree = "<group>"; };
+		1A4C791C2269F0080041F325 /* XBDemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBDemoListViewController.m; sourceTree = "<group>"; };
+		1A4C791D2269F0090041F325 /* XBViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBViewController4.h; sourceTree = "<group>"; };
+		1A4C791E2269F0090041F325 /* XBDemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDemoListViewController.h; sourceTree = "<group>"; };
+		1A4C791F2269F0090041F325 /* XBViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBViewController4.m; sourceTree = "<group>"; };
+		1A4C79222269F18D0041F325 /* XBViewController5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBViewController5.h; sourceTree = "<group>"; };
+		1A4C79232269F18D0041F325 /* XBViewController5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBViewController5.m; sourceTree = "<group>"; };
+		1A4C79252269F4840041F325 /* XBCircularTextContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBCircularTextContainer.h; sourceTree = "<group>"; };
+		1A4C79262269F4840041F325 /* XBCircularTextContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBCircularTextContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,17 +78,25 @@
 			children = (
 				1A4C7900226777B90041F325 /* AppDelegate.h */,
 				1A4C7901226777B90041F325 /* AppDelegate.m */,
+				1A4C7909226777BB0041F325 /* Assets.xcassets */,
+				1A4C790E226777BB0041F325 /* Info.plist */,
+				1A4C790B226777BB0041F325 /* LaunchScreen.storyboard */,
+				1A4C790F226777BB0041F325 /* main.m */,
+				1A4C7906226777B90041F325 /* Main.storyboard */,
+				1A4C791E2269F0090041F325 /* XBDemoListViewController.h */,
+				1A4C791C2269F0080041F325 /* XBDemoListViewController.m */,
 				1A4C7903226777B90041F325 /* XBViewController1.h */,
 				1A4C7904226777B90041F325 /* XBViewController1.m */,
 				1A4C79162267831C0041F325 /* XBViewController2.h */,
 				1A4C79172267831C0041F325 /* XBViewController2.m */,
 				1A4C79192268D6880041F325 /* XBViewController3.h */,
 				1A4C791A2268D6880041F325 /* XBViewController3.m */,
-				1A4C7906226777B90041F325 /* Main.storyboard */,
-				1A4C7909226777BB0041F325 /* Assets.xcassets */,
-				1A4C790B226777BB0041F325 /* LaunchScreen.storyboard */,
-				1A4C790E226777BB0041F325 /* Info.plist */,
-				1A4C790F226777BB0041F325 /* main.m */,
+				1A4C791D2269F0090041F325 /* XBViewController4.h */,
+				1A4C791F2269F0090041F325 /* XBViewController4.m */,
+				1A4C79222269F18D0041F325 /* XBViewController5.h */,
+				1A4C79232269F18D0041F325 /* XBViewController5.m */,
+				1A4C79252269F4840041F325 /* XBCircularTextContainer.h */,
+				1A4C79262269F4840041F325 /* XBCircularTextContainer.m */,
 			);
 			path = XBTextKitDemo;
 			sourceTree = "<group>";
@@ -156,7 +176,11 @@
 				1A4C7905226777B90041F325 /* XBViewController1.m in Sources */,
 				1A4C79182267831D0041F325 /* XBViewController2.m in Sources */,
 				1A4C7910226777BB0041F325 /* main.m in Sources */,
+				1A4C79272269F4840041F325 /* XBCircularTextContainer.m in Sources */,
+				1A4C79242269F18D0041F325 /* XBViewController5.m in Sources */,
 				1A4C7902226777B90041F325 /* AppDelegate.m in Sources */,
+				1A4C79202269F0090041F325 /* XBDemoListViewController.m in Sources */,
+				1A4C79212269F0090041F325 /* XBViewController4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,7 +21,7 @@
     [super viewDidLoad];
 
     self.navigationItem.title = @"TextKit";
-    _dataList = @[@"ExclusionPaths", @"Demo 2", @"mutiple containers", @"Core Text"];
+    _dataList = @[@"ExclusionPaths", @"Demo 2", @"mutiple containers", @"Core Text", @"Custom Container & ExclusionPaths"];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
 }

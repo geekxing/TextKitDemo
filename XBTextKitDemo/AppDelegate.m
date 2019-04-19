@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "XBViewController3.h"
+#import "XBDemoListViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,8 +20,10 @@
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
-    UIViewController *vc =[XBViewController3 new];
-    self.window.rootViewController = vc;
+    
+    UIViewController *vc = [XBDemoListViewController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nav;
     
     return YES;
 }
